@@ -2,6 +2,8 @@ import React from 'react';
 
 import Calendar from './components/Calendar';
 
+import Days from './components/Days';
+
 import './App.css';
 
 class App extends React.Component {
@@ -18,6 +20,7 @@ class App extends React.Component {
       </header>
       <main>
         <Calendar />
+        <Days />
       </main>
     </div>
   );
