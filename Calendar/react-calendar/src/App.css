@@ -1,36 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* FONT IMPORTS */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
@@ -53,6 +21,9 @@
   font-feature-settings: 'liga';
 }
 
+
+/* VARIABLES */
+
 :root {
   --main-color: #1a8fff;
   --text-color: #777;
@@ -61,6 +32,9 @@
   --bg-color: #f9f9f9;
   --neutral-color: #fff;
 }
+
+
+/* GENERAL */
 
 * {
   box-sizing: border-box;
@@ -102,6 +76,9 @@ main {
   max-width: 50em;
 }
 
+
+/* GRID */
+
 .row {
   margin: 0;
   padding: 0;
@@ -135,6 +112,9 @@ main {
   justify-content: flex-end;
   text-align: right;
 }
+
+
+/* Calendar */
 
 .calendar {
   display: block;

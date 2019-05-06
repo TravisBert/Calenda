@@ -1,6 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import Calendar from "./components/Calendar";
+
+import Calendar from './components/Calendar';
+
 import './App.css';
 
 class App extends React.Component {
@@ -11,7 +12,7 @@ class App extends React.Component {
         <div id="logo">
         <span className="icon">date_range</span>
         <span>
-          react<b>Calendar</b>
+         <b>Calendar</b>
         </span>
         </div>
       </header>
